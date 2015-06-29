@@ -26,7 +26,15 @@
     "author": "Smile",
     "license": 'AGPL-3',
     "description": """
-    Generate Models Graph
+    Generate Models Graph on demand from Odoo's user interface with a new report.
+    
+    You need to install Graphviz to print graph. More infos on http://www.graphviz.org 
+
+    1 - Select a model into Settings menu
+    2 - Print the "Models Graph"
+    3 - You can choose in the wizard : 
+          - the deep level you want from the selected model and,
+          - display in the report the relation name 
 
     Suggestions & Feedback to: corentin.pouhet-brunerie@smile.fr
     """,
@@ -38,7 +46,7 @@
     ],
     "demo": [],
     'test': [],
-    "auto_install": True,
+    "auto_install": False,
     "installable": True,
     "application": False,
 }
