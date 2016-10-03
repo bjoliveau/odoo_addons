@@ -26,6 +26,8 @@
     "author": "Smile",
     "license": 'AGPL-3',
     "description": """Modules Repositories
+    
+    This addon aims to connect with several VCS, follow code you downloaded and use each module you get as a product.
 
     Suggestions & Feedback to: corentin.pouhet-brunerie@smile.fr
     """,
